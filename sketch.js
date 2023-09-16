@@ -1,4 +1,4 @@
-let count = 529; //30
+let count = 360; //30 529
 
 let rock;
 let paper;
@@ -22,13 +22,13 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1600, 1600);
+  createCanvas(1700, 2960); //24, 45
 
   let node = new Node("Scissor");
 
-  for (let x = 130; x < 1470; x += 60) {
+  for (let x = 130; x < 1570; x += 60) {
     //670
-    for (let y = 130; y < 1470; y += 60) {
+    for (let y = 130; y < 2700; y += 60) {
       let done = false;
 
       while (done == false) {
